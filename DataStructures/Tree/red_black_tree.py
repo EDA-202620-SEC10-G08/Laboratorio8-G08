@@ -28,7 +28,11 @@ def flip_node_color():
 def size_tree():
 
 def is_red(node_rbt):
-    if node_rbt["color"] != None and node_rbt["C"]
+    if node_rbt != None:
+        if node_rbt["color"] != None:
+            return rbt_node.is_red(node_rbt)
+        else:
+            return False
 
 
 
